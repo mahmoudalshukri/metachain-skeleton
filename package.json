@@ -1,0 +1,45 @@
+{
+  "name": "metachain-skeleton",
+  "version": "1.0.0",
+  "description": "Televerse components skeleton using react",
+  "type": "module",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahmoudalshukri/metachain-skeleton.git"
+  },
+  "keywords": [
+    "React",
+    "Skeleton",
+    "Loading"
+  ],
+  "author": "Mahmoud Alshukri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahmoudalshukri/metachain-skeleton/issues"
+  },
+  "homepage": "https://github.com/mahmoudalshukri/metachain-skeleton#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/preset-react": "^7.18.6",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "@rollup/plugin-replace": "^5.0.2",
+    "@types/react": "^18.2.6",
+    "react": "^18.2.0",
+    "rollup": "^3.22.0",
+    "rollup-plugin-dts": "^5.3.0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mahmoudalshukri"
+  },
+  "dependencies": {
+    "postcss": "^8.4.23",
+    "postcss-preset-env": "^8.4.1",
+    "rollup-plugin-postcss": "^4.0.2"
+  }
+}

@@ -1,0 +1,22 @@
+.memberCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1.5rem 0.75rem;
+  }
+  .memberInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .memberInfoM {
+    margin: 0.5rem;
+  }
+  .memberDescription .line {
+    margin: 0.5rem 0;
+  }
+  .memberAccounts {
+    display: flex;
+  }
+  .memberAccounts .icon {
+    margin: 0 0.5rem 0 0;
+  }

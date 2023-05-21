@@ -1,0 +1,21 @@
+.card {
+  padding: 2.5rem;
+}
+.bnb,
+.amountToBuy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+}
+.line {
+  margin: 0.75rem 0;
+}
+.data {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.submit {
+    margin-top: 1.5rem ;
+}

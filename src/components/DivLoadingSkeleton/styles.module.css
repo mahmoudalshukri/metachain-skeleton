@@ -1,0 +1,55 @@
+/* Skeleton parent */
+.skeletonParent {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Skeleton child */
+  .skeletonChild {
+    height: 100%;
+  }
+  /* Wave animation */
+  @keyframes waveAnimation {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(400%);
+    }
+  }
+  
+  /* Wave animation circle */
+  @keyframes waveAnimationCircle {
+    0% {
+      transform: translateX(0%);
+      border-radius: 50% 0 0 50%;
+    }
+    25% {
+      border-radius: 0 50% 50% 0;
+    }
+    50% {
+      transform: translateX(200%);
+      border-radius: 50% 0 0 50%;
+    }
+    75% {
+      border-radius: 0 50% 50% 0;
+    }
+    100% {
+      transform: translateX(400%);
+      border-radius: 50% 0 0 50%;
+    }
+  }
+  
+  /* Pulse animation */
+  @keyframes pulseAnimation {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  

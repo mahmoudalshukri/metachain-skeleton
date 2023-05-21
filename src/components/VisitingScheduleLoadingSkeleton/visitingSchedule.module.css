@@ -1,0 +1,16 @@
+.card {
+  /* padding: 2.5rem; */
+  /* padding-top: 2rem; */
+  padding-top: 1rem;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.break {
+    background-color: #999;
+    height: 2px;
+    width: 100%;
+    margin: 1.5rem 0;
+}

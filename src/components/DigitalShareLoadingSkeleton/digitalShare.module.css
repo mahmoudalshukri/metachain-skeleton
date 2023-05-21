@@ -1,0 +1,17 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+.title {
+    height: 100%;
+    width: fit-content;
+}
+.text {
+    margin: 2.5rem 0;
+}
+.line {
+    margin: 0.75rem 0;
+}
